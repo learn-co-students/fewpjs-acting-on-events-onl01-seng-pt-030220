@@ -40,6 +40,7 @@ function moveDodgerDown() {
     if (up >= 0) {
       dodger.style.bottom = `${up + 1}px`
     }
+    // if up == 400px, should run stop running. 
   }
 
   document.addEventListener("keydown", function(e) {
